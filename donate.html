@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elephant</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="donate-main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">Elep<span style="color: yellowgreen">hant</span></h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html"">Home</a></li>
+                        <li><a href="about.html"">About</a></li>
+                        <li><a href="contact.html"">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="donate">
+                    <a href="donate.html"><button class="btn">Donate</button></a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="panel">
+                    <h2>I am a proud DONOR.........</h2><br><br>
+                    <div class="donation_form">
+                        <form action="connect.php" method="post" enctype="multipart/form-data">
+                            <div class="donation_info">
+                                <label for="donatorName">Donator's Name</label>
+                                <input type="text" class="donation_control" id="donatorName" name="donatorName"/>
+                            </div>                          
+                            <div class="donation_info">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" class="donation_control" id="phoneNumber" name="phoneNumber"/>
+                            </div>
+                            <div class="donation_info">
+                                <label for="address">Address</label>
+                                <input type="text" class="donation_control" id="address" name="address"/>
+                            </div>
+                            <div class="donation_info">
+                                <label for="email">Email</label>
+                                <input type="text" class="donation_control" id="email" name="email"/>
+                            </div>
+                            <div class="donation_info">
+                                <label for="donation">Donation</label>
+                                <input type="text" class="donation_control" id="donation" name="donation"/>
+                            </div>
+                            <div class="donation_info">
+                                <label for="photo">Photo</label>
+                                <label for="photo">
+                                    Currently we are accepting Bank Transfers only. Card payments will be included soon.<br>
+                                    Bank Detail :-
+                                        <ol class="form-ol">
+                                            <li>Bank Name : Example Bank</li>
+                                            <li>Branch : Matara</li>
+                                            <li>Beneficiary Name : Elephant Community</li>
+                                            <li>Accout Number : 123xxxxxx</li>
+                                        </ol>
+                                </label>
+                                <label for="photo">Please kind enough to upload the payment slip(for office use)</label>
+                                <input type="file" class="donation_control" id="photo" name="photo"/>
+                            </div>
+                            <div class="button">
+                                <input type="submit" class="submit_btn" value="Submit">
+                                <input type="reset" class="reset_btn" value="Reset">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; OOP Project. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
