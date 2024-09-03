@@ -17,7 +17,7 @@
             $fileType = $_FILES['photo']['type'];
             $fileNameCmps = explode(".", $fileName);
             $fileExtension = strtolower(end($fileNameCmps));
-
+            //comment
             
             if (!empty($donatorName) && !empty($phoneNumber) && !empty($address) && !empty($email) && !empty($donation) && !empty($fileName)) {
                 
