@@ -135,14 +135,13 @@
 
             <div class="donateSub">
                 <div class="donateForm"> 
-                    <form class="donation-form" action="connect.php" method="post" enctype="multipart/form-data">
-                        
+                    <form class="donation-form" action="connect.php" method="post">                       
                         <div class="group">
                             <div class="form-group-1">
                                 <label for="name">Name</label>
                             </div>
                             <div  class="donation-control-1">
-                                <input type="text" id="name" name="name" autocomplete="off" required>
+                                <input type="text" id="name" name="name" autocomplete="off">
                             </div>
                         </div>
 
@@ -151,7 +150,7 @@
                                 <label for="email">Email</label>
                             </div>
                             <div class="donation-control-1">
-                                <input type="email"  id="email" name="email" autocomplete="off" required>
+                                <input type="email"  id="email" name="email" autocomplete="off">
                             </div>
                         </div>
 
@@ -160,7 +159,7 @@
                             <label for="address">Address</label>
                             </div>
                             <div class="donation-control-3">
-                                <input type="text"  id="address" name="address" autocomplete="off" required>
+                                <input type="text"  id="address" name="address" autocomplete="off">
                             </div>
                         </div>
 
@@ -170,7 +169,7 @@
                                     <label for="phone">Phone</label>
                                 </div>
                                 <div class="donation-control-2">
-                                    <input type="tel"  id="phone" name="phone" autocomplete="off" required>
+                                    <input type="tel"  id="phone" name="phone" autocomplete="off">
                                 </div>
                             </div>
 
@@ -179,13 +178,13 @@
                                     <label for="donation">Donation</label>
                                 </div>
                                 <div class="donation-control-2">
-                                    <input type="number"  id="donation" name="donation" autocomplete="off" required>
+                                    <input type="number"  id="donation" name="donation" autocomplete="off">
                                 </div>
                             </div>
                         </div>
 
                         <div class="donateButton">
-                            <button type="submit" onclick="clearFields()">Donate</button>
+                            <button type="submit" name="submitBtn">Donate</button>
                         </div>
 
                     </form>
