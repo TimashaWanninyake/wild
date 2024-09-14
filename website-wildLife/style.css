@@ -470,6 +470,7 @@ input::-webkit-inner-spin-button {
 }
 
 .donateButton button{
+    
     width:500px;
     height:50px;
     background:  #005C24;
@@ -600,4 +601,18 @@ footer{
     font-weight: lighter;
     font-size: 120%;
     margin-right: 20px;
+}
+
+
+.fileinput{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fileinput-wrapper{
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
